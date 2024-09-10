@@ -1,24 +1,24 @@
 import random
 
-def generate_array():
+def generuj_tablice():
     return [random.randint(1, 100) for _ in range(50)]
 
-def search_array(array, x):
-    array.append(x)
-    for i, element in enumerate(array):
+def przeszukaj_tablice(tablica, x):
+    tablica.append(x)
+    for i, element in enumerate(tablica):
         if element == x:
-            if i == len(array) - 1:
-                return "Element not found in the array."
+            if i == len(tablica) - 1:
+                return "Element nie został znaleziony w tablicy."
             else:
-                return f"Element found at index {i}."
-    return "Element not found in the array."
+                return f"Element znaleziony na pozycji {i}."
+    return "Element nie został znaleziony w tablicy."
 
 def main():
-    x = int(input("Enter the number to search: "))
-    array = generate_array()
-    result = search_array(array, x)
-    print(f"Array: {', '.join(map(str, array[:-1]))}")
-    print(result)
+    x = int(input("Podaj liczbę do wyszukania: "))
+    tablica = generuj_tablice()
+    wynik = przeszukaj_tablice(tablica, x)
+    print(f"Tablica: {', '.join(map(str, tablica[:-1]))}")
+    print(wynik)
 
 if __name__ == "__main__":
     main()
