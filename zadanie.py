@@ -1,4 +1,4 @@
-import random1
+import random
 
 def generuj_tablice():
     return [random.randint(1, 100) for _ in range(50)]
