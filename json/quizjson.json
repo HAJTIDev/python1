@@ -1,0 +1,36 @@
+[
+    {
+        "question": "Jak wyświetlamy komunikat w Pythonie",
+        "answers": [
+            {
+                "text": "put",
+                "correct": false
+            },
+            {
+                "text": "write",
+                "correct": false
+            },
+            {
+                "text": "print",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "question": "Od jakiego słowa definiujemy funkcje w Pythonie?",
+        "answers": [
+            {
+                "text": "def",
+                "correct": true
+            },
+            {
+                "text": "void",
+                "correct": false
+            },
+            {
+                "text": "function",
+                "correct": false
+            }
+        ]
+    }
+]

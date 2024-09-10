@@ -1,0 +1,5 @@
+Jan Kowalski 5
+Anna Dymna 4.5
+Jan Kowalski 2
+Anna Dymna 11
+Andrzej Wajda 1.5

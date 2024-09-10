@@ -1,0 +1,90 @@
+imie i naziwsko: 
+data:
+
+klasa:
+
+quiz o stolicach stanów
+
+0. jaka jest stolica stanu New Jersey
+
+
+1. jaka jest stolica stanu Dakota Po³udniowa
+
+
+
+3. jaka jest stolica stanu Floryda
+
+
+4. jaka jest stolica stanu Nebraska
+
+
+5. jaka jest stolica stanu Iowa
+
+
+6. jaka jest stolica stanu Connecticut
+
+
+7. jaka jest stolica stanu Oklahoma
+
+
+
+9. jaka jest stolica stanu Oregon
+
+
+10. jaka jest stolica stanu Maine
+
+
+11. jaka jest stolica stanu Karolina Pó³nocna
+
+
+12. jaka jest stolica stanu Mississippi
+
+
+13. jaka jest stolica stanu Wirginia
+
+
+14. jaka jest stolica stanu Alaska
+
+
+15. jaka jest stolica stanu Vermont
+
+
+16. jaka jest stolica stanu Utah
+
+
+17. jaka jest stolica stanu Massachusetts
+
+
+18. jaka jest stolica stanu Kentucky
+
+
+19. jaka jest stolica stanu Illinois
+
+
+20. jaka jest stolica stanu Alabama
+
+
+21. jaka jest stolica stanu Michigan
+
+
+
+
+24. jaka jest stolica stanu Karolina Po³udniowa
+
+
+25. jaka jest stolica stanu New Hampshire
+
+
+26. jaka jest stolica stanu Missouri
+
+
+27. jaka jest stolica stanu Idaho
+
+
+
+29. jaka jest stolica stanu Indiana
+
+
+30. jaka jest stolica stanu Waszyngton
+
+
