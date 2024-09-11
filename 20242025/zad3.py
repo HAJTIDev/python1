@@ -1,4 +1,4 @@
-def table(n):
+def wypelnij_sito(n):
     liczby = [True] * (n+1)
     liczby[0] = liczby[1] = False
     for i in range(2, int(n**0.5) + 1):
@@ -7,14 +7,13 @@ def table(n):
                 liczby[j] = False
     return liczby
 
-def sito_eratost(n):
-    liczby = table(n)
+def sito_eratosa(n):
+    liczby = wypelnij_sito(n)
     return [x for x in range(2, n+1) if liczby[x]]
 
-def print(n):
-    primes = sito_eratost(n)
-    print(math.format(n))
+def printed(n):
+    primes = sito_eratosa(n)
     print(format(n))
     print(*primes, sep=", ")
 
-print(100)
+printed(100)
