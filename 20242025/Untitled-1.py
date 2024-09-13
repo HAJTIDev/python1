@@ -1,0 +1,1 @@
+def NWD(a: int, b: int) -> int: return NWD(b, a % b) if b else a; a: int = int(input("Wprowadź a: \n")); b: int = int(input("Wprowadź b: \n")); print("NWD dla tych liczb jest równe:", NWD(a, b)); def NWD(a, b): return NWD(b, a%b) if b else a; print("NWD dla tych liczb jest równe:",NWD(int(input("Wprowadź a: \n")),int(input("Wprowadź b: \n"))))
