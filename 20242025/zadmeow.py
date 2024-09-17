@@ -1,29 +1,29 @@
 class ArraySorter:
-    def __init__(self, array):
-        self.array = array
+    def __init__(self, input_array):
+        self.input_array = input_array
 
-    def getmaxindex(self, end):
-        max_index = 0
-        for i in range(1, end + 1):
-            if self.array[i] > self.array[max_index]:
-                max_index = i
-        return max_index
+    def find_min_index(self, end_index):
+        min_index = 0
+        for index in range(1, end_index + 1):
+            if self.input_array[index] < self.input_array[min_index]:
+                min_index = index
+        return min_index
 
-    def sort(self):
-        for i in range(len(self.array) - 1, -1, -1):
-            max_index = self.getmaxindex(i)
-            self.array[i], self.array[max_index] = self.array[max_index], self.array[i]
+    def sort_array(self):
+        for index in range(len(self.input_array) - 1, -1, -1):
+            min_index = self.find_min_index(index)
+            self.input_array[index], self.input_array[min_index] = self.input_array[min_index], self.input_array[index]
 
-    def display(self):
-        for element in self.array:
+    def display_array(self):
+        for element in self.input_array:
             print(element, end=' ')
         print()
 
 def main():
-    array = [int(input("Enter an element: ")) for _ in range(10)]
-    sorter = ArraySorter(array)
-    sorter.sort()
-    sorter.display()
+    input_array = [int(input("Enter an element: ")) for _ in range(10)]
+    array_sorter = ArraySorter(input_array)
+    array_sorter.sort_array()
+    array_sorter.display_array()
 
 if __name__ == "__main__":
     main()
