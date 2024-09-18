@@ -8,7 +8,12 @@ class Note:
     def display(self):
         print(f'title: {self._title}\nContent: {self._content}')
     def diagnose(self):
-        print(f'{self.__id};{self._title};{self._content}')
+        print(f'{Note.__counter};{self.__id};{self._title};{self._content}')
+
 notka=Note("meow","meow")
 notka.display()
 notka.diagnose()
+
+notka2=Note("MEOW","MEOW")
+notka2.display()
+notka2.diagnose()
