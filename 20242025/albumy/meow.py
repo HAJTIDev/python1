@@ -14,7 +14,7 @@ class main:
         self.load_album_data()
 
     def load_album_data(self):
-        with open("data.txt") as file:
+        with open("Data.txt",'r') as file:
             data_lines = file.readlines()
         artist = ""
         title = ""
@@ -36,7 +36,12 @@ class main:
             elif line_index == 6:
                 self.albums.append(Albumy(artist, title, tracks, year, downloads))
 
-        for i in range(0, len(self.albums)):
-            print(f"{i+1}. {self.albums[i].artist} - {self.albums[i].title} ({self.albums[i].year})")
+    for i in range(0, len(self.albums)):
+        print(f"Artist: {self.albums[i].artist}")
+        print(f"Title: {self.albums[i].title}")
+        print(f"Year: {self.albums[i].year}")
+        print(f"Tracks: {self.albums[i].tracks}")
+        print(f"Downloads: {self.albums[i].downloads}")
+        print() 
 if __name__ == "__main__":
     main_instance = main()
